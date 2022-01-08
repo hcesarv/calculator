@@ -48,8 +48,7 @@ function Calculator() {
 
             if (!equation) {
                 console.log(0)
-                alert('Not a valid equation. Please, try again.');
-                /* this.showNumberOnDisplay() = 'batata'; */
+                alert('Not a valid equation. Please, try again.')
             }
 
             this.display.value = equation;
